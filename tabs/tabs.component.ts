@@ -19,7 +19,7 @@ export class TabsComponent implements AfterContentInit {
   activeTab: any;
 
   @ContentChildren(TabComponent)
-  tabs!: QueryList<TabComponent>;
+  tabs: QueryList<TabComponent>;
 
   constructor(private cdr: ChangeDetectorRef) {
   }
